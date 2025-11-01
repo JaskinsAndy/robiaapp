@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EduCare - Free Learning for Everyone</title>
+  <meta name="description" content="EduCare delivers free, high-quality lessons and mentorship so every learner can access world-class education." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">EduCare</a>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="privacy-policy.html">Privacy Policy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <h1>Learn without limits with EduCare</h1>
+          <p>EduCare unlocks free, high-quality learning pathways, interactive practice, and community mentorship for students everywhere.</p>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.example.educare" target="_blank" rel="noopener">Get it on Google Play</a>
+            <a class="btn btn-secondary" href="privacy-policy.html">View Privacy Policy</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <div class="screen">
+            <div class="screen-header">
+              <span class="dot" aria-hidden="true"></span>
+              <span class="dot" aria-hidden="true"></span>
+              <span class="dot" aria-hidden="true"></span>
+            </div>
+            <div class="screen-body">
+              <h2>Today</h2>
+              <ul>
+                <li>STEM foundations - Module 3</li>
+                <li>Live Q&amp;A: Scholarships 101</li>
+                <li>Language lab - Spanish basics</li>
+                <li>Share progress with mentor</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2>Why you&rsquo;ll love EduCare</h2>
+        <div class="feature-grid">
+          <article>
+            <h3>Curated learning paths</h3>
+            <p>Follow guided courses built by educators that cover core subjects, college prep, and career skills.</p>
+          </article>
+          <article>
+            <h3>Offline access</h3>
+            <p>Download lessons so you can keep studying even when the internet is out of reach.</p>
+          </article>
+          <article>
+            <h3>Community mentorship</h3>
+            <p>Connect with volunteers and peers worldwide to stay motivated and celebrate every milestone.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-card">
+          <h2>Built to democratize learning</h2>
+          <p>EduCare exists to make education free and accessible to everyone. We collaborate with teachers, nonprofits, and passionate volunteers to bring trusted knowledge to any learner with a mobile device.</p>
+          <p class="note">Have ideas or need support? Reach out and help us shape new lessons, languages, and career pathways.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Get in touch</h2>
+        <p>Email us anytime at <a href="mailto:hello@educare.app">hello@educare.app</a> for support, partnerships, or feedback.</p>
+        <p>Prefer a message? Use the form below. We reply within 2 business days.</p>
+        <form class="contact-form" name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> EduCare. All rights reserved.</p>
+      <p><a href="privacy-policy.html">Privacy Policy</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
