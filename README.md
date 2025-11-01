@@ -5,7 +5,7 @@ Static marketing site and privacy policy for the EduCare chemistry learning app,
 ## Project structure
 
 - `index.html` - landing page with hero, chemistry feature highlights, contact form, and App Store links.
-- `privacy-policy.html` - Play Store ready privacy policy (update the date, provider name, and contact details as needed).
+- `privacy-policy.html` - App Store ready privacy policy (update the date, provider name, and contact details as needed).
 - `assets/css/styles.css` - shared styling for the landing page.
 - `netlify.toml` - Netlify configuration with a clean URL fallback.
 
