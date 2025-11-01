@@ -1,10 +1,10 @@
 # EduCare Portfolio Website
 
-Static marketing site and privacy policy for the EduCare Android application. Designed for quick deploys on Netlify.
+Static marketing site and privacy policy for the EduCare chemistry learning app, currently focused on Uzbekistan-based learners. Designed for quick deploys on Netlify.
 
 ## Project structure
 
-- `index.html` - landing page with hero, feature highlights, contact form, and Play Store links.
+- `index.html` - landing page with hero, chemistry feature highlights, contact form, and App Store links.
 - `privacy-policy.html` - Play Store ready privacy policy (update the date, provider name, and contact details as needed).
 - `assets/css/styles.css` - shared styling for the landing page.
 - `netlify.toml` - Netlify configuration with a clean URL fallback.
@@ -12,8 +12,8 @@ Static marketing site and privacy policy for the EduCare Android application. De
 ## Customization checklist
 
 1. Update copy in `index.html` to match your latest courses, testimonials, or screenshots.
-2. Replace the Google Play URL placeholder with the published EduCare package link when available.
-3. Confirm the contact email, organization name, and last updated date in both HTML files.
+2. Replace the App Store URL placeholder with the published EduCare listing when available.
+3. Confirm the contact email, organization name, and Tashkent mailing address in both HTML files.
 4. Adjust colors or typography in `assets/css/styles.css` to align with EduCare branding.
 
 ## Deploying to Netlify
